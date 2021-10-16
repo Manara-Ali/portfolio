@@ -1,3 +1,5 @@
+import "./App.css";
+
 // 1. IMPORT REACT
 import React from "react";
 

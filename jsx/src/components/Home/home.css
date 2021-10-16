@@ -1,1 +1,11 @@
+.btn-hire {
+  color: var(--white);
+  font-size: 12px;
+  background-color: #ff5823;
+}
 
+.btn-highlighted {
+  color: var(--white);
+  font-size: 12px;
+  background-color: #ff5823;
+}

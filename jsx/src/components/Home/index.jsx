@@ -1,3 +1,5 @@
+import "./home.css";
+
 // 1. IMPORT REACT
 import React from "react";
 
@@ -7,28 +9,30 @@ import Typical from "react-typical";
 // 3. CREATE A FUNCTION COMPONENT
 const Home = () => {
   return (
-    <div className="profile-container">
-      <div className="profile-parent">
-        <div className="profile-details">
+    <div className="container">
+      <div className="parent">
+        <div className="details">
           <div
-            className="colz"
+            className="group-icons"
             style={{ width: "100%", margin: "auto", textAlign: "center" }}
           >
-            <a href="https://www.linkedin.com/in/manara-ali/" target="_blank">
-              <i className="fa fa-linkedin-square"></i>
-            </a>
-            <a
-              href="https://www.youtube.com/channel/UCbuksGw2WY0eC0zbO5Jv8eQ"
-              target="_blank"
-            >
-              <i className="fa fa-youtube-square"></i>
-            </a>
-            <div className="profile-details-name">
+            <div className="icons">
+              <a href="https://www.linkedin.com/in/manara-ali/" target="_blank">
+                <i className="fa fa-linkedin-square"></i>
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCbuksGw2WY0eC0zbO5Jv8eQ"
+                target="_blank"
+              >
+                <i className="fa fa-youtube-square"></i>
+              </a>
+            </div>
+            <div className="details-name">
               <span className="primary-text">
                 Hello I am <span className="highlighted-text">Manara Ali</span>
               </span>
             </div>
-            <div className="profile-detail-role">
+            <div className="detail-role">
               <span className="primary-text">
                 <h2>
                   <Typical
@@ -57,7 +61,16 @@ const Home = () => {
                 </span>
               </span>
             </div>
+            <div className="options">
+              <button className="btn btn-hire">Direct Hire</button>
+              <a href="manaraAliResume.pdf" download="manaraAliResume.pdf">
+                <button className="btn btn-highlighted">Get Resume</button>
+              </a>
+            </div>
           </div>
+        </div>
+        <div className="picture">
+          <div className="background-picture"></div>
         </div>
       </div>
     </div>
