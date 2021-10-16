@@ -2,6 +2,7 @@
 import React from "react";
 
 // 2. IMPORT REACTDOM
+import "bootstrap/dist/css/bootstrap.css";
 import ReactDOM, { render } from "react-dom";
 
 // 3. ADDITIONAL IMPORTS GO HERE
