@@ -1,11 +1,87 @@
 .btn-hire {
   color: var(--white);
+  border: 2px solid linen;
   font-size: 12px;
-  background-color: #ff5823;
+  background-color: #1f2235;
+}
+
+.btn-hire:hover {
+  color: #ff5823;
 }
 
 .btn-highlighted {
   color: var(--white);
   font-size: 12px;
   background-color: #ff5823;
+  border-color: #fff;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 10%;
+  min-height: fit-content;
+}
+
+.details-name {
+  font-size: 24px;
+  font-family: "Poppins SemiBold";
+}
+
+.details-role {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 20px 0;
+}
+
+.primary-text {
+  color: (--white);
+}
+
+.highlighted-text {
+  color: (--dark-orange);
+}
+
+.role-tagline {
+  font-size: 19px;
+  margin-top: 5px;
+  font-family: "Poppins Light";
+}
+
+.picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 0 0 var(--white);
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.background-picture {
+  height: 92%;
+  width: 92%;
+  background-image: url("./../../fonts/manara.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.background-picture:hover {
+  transform: scale(1.07);
+  transition: 1s ease-in-out;
+}
+
+.group-icons .icons i {
+  color: #1e8ec9;
+  padding: 8px;
+}
+
+.group-icons .icons i:hover {
+  transform: scale(1.5);
 }

@@ -14,22 +14,26 @@ const Home = () => {
         <div className="details">
           <div
             className="group-icons"
-            style={{ width: "100%", margin: "auto", textAlign: "center" }}
+            // style={{ width: "100%", margin: "auto", textAlign: "center" }}
           >
             <div className="icons">
               <a href="https://www.linkedin.com/in/manara-ali/" target="_blank">
-                <i className="fa fa-linkedin-square"></i>
+                <i className="fa fa-linkedin-square fa-2x"></i>
+              </a>
+              <a href="https://github.com/Manara-Ali" target="_blank">
+                <i className="fa fa-github fa-2x"></i>
               </a>
               <a
                 href="https://www.youtube.com/channel/UCbuksGw2WY0eC0zbO5Jv8eQ"
                 target="_blank"
               >
-                <i className="fa fa-youtube-square"></i>
+                <i className="fa fa-youtube-square fa-2x"></i>
               </a>
             </div>
             <div className="details-name">
               <span className="primary-text">
-                Hello I am <span className="highlighted-text">Manara Ali</span>
+                Hello, my name is
+                <span className="highlighted-text"> Manara</span>
               </span>
             </div>
             <div className="detail-role">
@@ -46,7 +50,7 @@ const Home = () => {
                       2000,
                       "Java / SpringBoot",
                       2000,
-                      "MERN",
+                      "MERN Stack",
                       2000,
                       "Git and Github Jedi",
                       2000,
@@ -55,7 +59,7 @@ const Home = () => {
                     ]}
                   />
                 </h2>
-                <span className="profile role tagline">
+                <span className="role-tagline">
                   I am an expert in Technology implementation, Workflow
                   improvement and Program Development.
                 </span>

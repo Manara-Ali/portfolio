@@ -14,7 +14,7 @@ if (module.hot) {
 // 4. CREATE A FUNCTION BASED COMPONENT
 const App = () => {
   return (
-    <div>
+    <div className="app-container">
       <Home />
     </div>
   );
