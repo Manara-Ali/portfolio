@@ -4,7 +4,8 @@ import "./App.css";
 import React from "react";
 
 // 2. ADDITIONAL IMPORTS HERE
-import Home from "../Home";
+// import Home from "../Home";
+import Portfolio from "../Portfolio";
 
 // 3. AUTO RELOAD
 if (module.hot) {
@@ -15,7 +16,7 @@ if (module.hot) {
 const App = () => {
   return (
     <div className="app-container">
-      <Home />
+      <Portfolio />
     </div>
   );
 };
